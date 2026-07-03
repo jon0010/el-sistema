@@ -23,7 +23,7 @@ export function Header() {
               alt="El Sistema Ganador"
               width={220}
               height={40}
-              className="tw:max-md:!w-[180px] tw:max-md:!h-auto"
+              className="tw:max-md:!w-[240px] tw:max-md:!h-auto"
             />
           </a>
         </div>

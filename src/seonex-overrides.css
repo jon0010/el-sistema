@@ -816,4 +816,121 @@ body::-webkit-scrollbar-thumb:hover {
     flex: 0 0 40%;
     max-width: 40%;
   }
+
+  /* Hero — más aire entre navbar y eyebrow */
+  .section-hero.hero-mosaic-compact {
+    padding-top: 7.5rem;
+  }
+
+  .section-hero.hero-mosaic-compact .hero-content .sub-title {
+    margin-top: 0.75rem;
+  }
+
+  /* Strategy card 1 — evitar contenido cortado */
+  .section-strategy .marketing-card.strategy-card-rich {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .section-strategy .marketing-card.strategy-card-rich .logo {
+    margin-bottom: 1.5rem;
+  }
+
+  .section-strategy .marketing-card.strategy-card-rich .logo img {
+    max-width: min(200px, 72vw);
+    height: auto;
+  }
+
+  .section-strategy .marketing-card.strategy-card-rich .content {
+    min-width: 0;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  .section-strategy .strategy-benefit-grid {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .section-strategy .strategy-benefit-grid .benefit-item {
+    flex: 1 1 100%;
+    min-width: 0;
+    align-items: flex-start;
+  }
+
+  .section-strategy .strategy-benefit-grid .benefit-item span {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .section-strategy .strategy-card-footer {
+    font-size: 0.875rem;
+    line-height: 1.45;
+  }
+
+  /* Team — grid en lugar de carrusel horizontal */
+  .sw-team .swiper-wrapper.team-carousel-drag {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px 14px;
+    overflow-x: visible;
+    cursor: default;
+    touch-action: auto;
+    scroll-snap-type: none;
+    padding-inline: 4px;
+  }
+
+  .sw-team .swiper-slide {
+    width: auto !important;
+    scroll-snap-align: unset;
+  }
+
+  .sw-team .team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sw-team .team-card .image {
+    width: min(130px, 100%);
+    max-width: 100%;
+    margin-inline: auto;
+  }
+
+  .sw-team .team-card .team-content {
+    width: 100%;
+    padding-top: 12px;
+  }
+
+  .sw-team .team-card .name-team {
+    font-size: clamp(0.9rem, 3.5vw, 1.05rem);
+    line-height: 1.25;
+  }
+
+  .sw-team .team-card .position {
+    font-size: 0.8rem;
+    line-height: 1.35;
+  }
+
+  /* Footer — método y contacto alineados a la izquierda */
+  .footer.footer-sg .midder-footer .footer-content {
+    text-align: left;
+    align-self: stretch;
+  }
+
+  .footer.footer-sg .midder-footer .footer-content .content {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 420px) {
+  .sw-team .swiper-wrapper.team-carousel-drag {
+    grid-template-columns: 1fr;
+    max-width: 220px;
+    margin-inline: auto;
+  }
+
+  .sw-team .team-card .image {
+    width: min(180px, 72vw);
+  }
 }

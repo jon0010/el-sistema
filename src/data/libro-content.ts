@@ -13,7 +13,7 @@ export const libroContent: LandingContent = {
   hero: {
     eyebrow: "El sistema ganador.",
     eyebrowAccent: "Premiado en RRHH Canarias 2025.",
-    title: "Deja de ser\nel cuello de botella\nde tu organización",
+    title: "Deja de ser el cuello de botella de tu organización",
     description:
       "El Sistema Ganador es el manual práctico con acuerdos, rutinas y herramientas listas para redistribuir criterio y recuperar tu tiempo estratégico.",
     cta: { label: "Conseguir el libro", href: "#cta" },
@@ -47,7 +47,7 @@ export const libroContent: LandingContent = {
     eyebrow: "El problema real.",
     eyebrowAccent: "No es tu actitud.",
     title:
-      "Tu empresa no tiene\nun problema de personas.\nTiene un problema de diseño.",
+      "Tu empresa no tiene un problema de personas. Tiene un problema de diseño.",
     description:
       "Las decisiones suben a ti, el equipo espera validación, las reuniones no cierran y tu agenda la mandan las urgencias ajenas. No es falta de talento ni de actitud: es el diseño del trabajo.\nEl libro El Sistema Ganador — premiado en RRHH — te da el marco para redistribuir criterio, acordar reglas claras y medir la autonomía real de tu equipo.",
     cta: { label: "Ver qué incluye el libro", href: "#dimensiones" },
@@ -111,7 +111,7 @@ export const libroContent: LandingContent = {
   about: {
     eyebrow: "No gestionar mejor.",
     eyebrowAccent: "Rediseñar el sistema.",
-    title: "De líder apagafuegos\na arquitecto\ndel equipo",
+    title: "De líder apagafuegos a arquitecto del equipo",
     description:
       "El libro no te pide trabajar más ni motivar mejor. Te enseña a diseñar acuerdos, rutinas y flujos para que el trabajo avance con criterio cuando tú no estás.",
     videoPreview:

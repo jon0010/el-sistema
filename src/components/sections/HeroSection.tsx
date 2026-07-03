@@ -12,7 +12,7 @@ export function HeroSection({ content }: { content: LandingContent }) {
 
   return (
     <section
-      className={`section-hero${hero.images ? ' hero-mosaic-compact' : ''} tw:max-xl:!flex-col tw:max-xl:!gap-8 tw:max-xl:!px-4 tw:max-md:!pt-20 tw:max-md:!pb-14`}
+      className={`section-hero${hero.images ? ' hero-mosaic-compact' : ''} tw:max-xl:!flex-col tw:max-xl:!gap-8 tw:max-xl:!px-4 tw:max-md:!pt-28 tw:max-md:!pb-14`}
     >
       <div className="img-sharp sharp-1">
         <div className="blob-wrapper">
@@ -27,7 +27,7 @@ export function HeroSection({ content }: { content: LandingContent }) {
 
       <div className="hero-left tw:max-xl:!w-full">
         <div className="hero-content tw:max-xl:!mb-8">
-          <div className="sub-title h6 letter-space--2 fw-5 tw:max-md:!mb-3">
+          <div className="sub-title h6 letter-space--2 fw-5 tw:max-md:!mt-4 tw:max-md:!mb-3">
             {hero.eyebrow} <span className="color-dt-light">{hero.eyebrowAccent}</span>
           </div>
           <h1 className="title letter-space--3 fw-6 tw:max-xl:!text-[clamp(2rem,6vw,3.25rem)] tw:max-xl:!leading-[1.05] tw:max-md:!text-[2rem] tw:max-md:!mb-5">
@@ -53,11 +53,11 @@ export function HeroSection({ content }: { content: LandingContent }) {
           </div>
         </div>
 
-        <div className="stats tw:max-md:!flex-col tw:max-md:!items-start tw:max-md:!gap-6 tw:max-md:!max-w-full">
+        <div className="stats tw:max-md:!flex-col tw:max-md:!items-center tw:max-md:!text-center tw:max-md:!gap-6 tw:max-md:!max-w-full tw:max-md:!mx-auto">
           {hero.stats.map((stat) => (
-            <div key={stat.label} className="counter-item stat">
+            <div key={stat.label} className="counter-item stat tw:max-md:!flex tw:max-md:!flex-col tw:max-md:!items-center">
               <div className="counter">
-                <div className="number-counter flex fs-65">
+                <div className="number-counter flex fs-65 tw:max-md:!justify-center">
                   <span className="number color-dt-blue h1 fw-6">{stat.value}</span>
                   {stat.suffix && <span className="h1">{stat.suffix}</span>}
                 </div>

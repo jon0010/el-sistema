@@ -33,12 +33,12 @@ export function Footer({ content }: { content: LandingContent }) {
 
       <div className="footer-inner">
         <div className="container w-1750">
-          <div className="midder-footer tw:max-lg:!flex-col tw:max-lg:!items-center tw:max-lg:!text-center tw:max-lg:!gap-8">
+          <div className="midder-footer tw:max-lg:!flex-col tw:max-lg:!items-center tw:max-lg:!gap-8">
             <a href="/" className="logo-footer">
               <img src="/images/logo/logo-sg.svg" alt="El Sistema Ganador" />
             </a>
 
-            <div className="footer-content footer-col-block footer-content-1 tw:max-lg:!w-full">
+            <div className="footer-content footer-col-block footer-content-1 tw:max-lg:!w-full tw:max-lg:!self-stretch tw:max-lg:!text-left">
               <div className="title-mobile h5 letter-space--3 fw-5">El método</div>
               <div className="tf-collapse-content">
                 <ul className="content">
@@ -49,7 +49,7 @@ export function Footer({ content }: { content: LandingContent }) {
               </div>
             </div>
 
-            <div className="footer-content footer-col-block footer-content-1 tw:max-lg:!w-full">
+            <div className="footer-content footer-col-block footer-content-1 tw:max-lg:!w-full tw:max-lg:!self-stretch tw:max-lg:!text-left">
               <div className="title-mobile h5 letter-space--3 fw-5">Contacto</div>
               <div className="tf-collapse-content">
                 <ul className="content">
