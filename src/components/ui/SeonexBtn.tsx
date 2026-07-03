@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import type { ReactNode } from 'react'
 
 type SeonexBtnVariant = 'lime' | 'blue' | 'border'
@@ -28,14 +27,6 @@ export function SeonexBtn({ children, href, variant = 'blue', big = false, class
       </span>
     </>
   )
-
-  if (href?.startsWith('/')) {
-    return (
-      <Link to={href} className={classes}>
-        {inner}
-      </Link>
-    )
-  }
 
   if (href) {
     return (

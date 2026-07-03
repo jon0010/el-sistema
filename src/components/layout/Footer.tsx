@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { SeonexBtn } from '../ui/SeonexBtn'
 import type { LandingContent } from '../../types/content'
 
@@ -24,7 +23,7 @@ export function Footer({ content }: { content: LandingContent }) {
               el cuello de botella?
             </p>
             <div className="tw:max-lg:!flex tw:max-lg:!justify-center">
-              <SeonexBtn href="/libro#cta" variant="lime" big>
+              <SeonexBtn href="#cta" variant="lime" big>
                 Conseguir el libro
               </SeonexBtn>
             </div>
@@ -35,9 +34,9 @@ export function Footer({ content }: { content: LandingContent }) {
       <div className="footer-inner">
         <div className="container w-1750">
           <div className="midder-footer tw:max-lg:!flex-col tw:max-lg:!items-center tw:max-lg:!text-center tw:max-lg:!gap-8">
-            <Link to="/libro" className="logo-footer">
+            <a href="/" className="logo-footer">
               <img src="/images/logo/logo-sg.svg" alt="El Sistema Ganador" />
-            </Link>
+            </a>
 
             <div className="footer-content footer-col-block footer-content-1 tw:max-lg:!w-full">
               <div className="title-mobile h5 letter-space--3 fw-5">El método</div>

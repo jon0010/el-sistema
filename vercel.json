@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    { "source": "/libro", "destination": "/", "permanent": true },
+    { "source": "/libro/:path*", "destination": "/", "permanent": true },
+    { "source": "/directores", "destination": "/", "permanent": true },
+    { "source": "/directores/:path*", "destination": "/", "permanent": true }
+  ]
+}

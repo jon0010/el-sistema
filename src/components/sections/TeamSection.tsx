@@ -57,7 +57,7 @@ export function TeamSection({ content }: { content: LandingContent }) {
                   : 'Profesionales que descubrieron dónde se concentra la dependencia en su organización.')}
             </p>
             <SeonexBtn
-              href={content.team?.cta?.href ?? (isLibro ? '/libro#cta' : '/directores#test')}
+              href={content.team?.cta?.href ?? (isLibro ? '#cta' : '#test')}
               variant="blue"
               big
             >

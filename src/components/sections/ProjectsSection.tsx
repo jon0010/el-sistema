@@ -44,7 +44,7 @@ export function ProjectsSection({ content }: { content: LandingContent }) {
                 ? 'Implementaciones del Sistema Ganador con impacto medible en autonomía y foco del líder.'
                 : 'Brechas concretas en las 5 dimensiones que el test revela en minutos.'}
             </p>
-            <SeonexBtn href={isLibro ? '/libro#cta' : '/directores#test'} variant="border" big>
+            <SeonexBtn href={isLibro ? '#cta' : '#test'} variant="border" big>
               {isLibro ? 'Conseguir el libro' : 'Hacer el test'}
             </SeonexBtn>
           </div>

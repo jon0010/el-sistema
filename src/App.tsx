@@ -1,15 +1,19 @@
-import { Navigate, Route, Routes } from 'react-router-dom'
+import { useEffect } from 'react'
 import { Layout } from './components/layout/Layout'
-import { LibroPage } from './pages/LibroPage'
+import { LandingPage } from './components/sections/LandingPage'
+import { libroContent } from './data/libro-content'
 
 export default function App() {
+  useEffect(() => {
+    document.title = libroContent.meta.title
+    document
+      .querySelector('meta[name="description"]')
+      ?.setAttribute('content', libroContent.meta.description)
+  }, [])
+
   return (
-    <Routes>
-      <Route element={<Layout />}>
-        <Route path="/" element={<Navigate to="/libro" replace />} />
-        <Route path="/libro" element={<LibroPage />} />
-        <Route path="*" element={<Navigate to="/libro" replace />} />
-      </Route>
-    </Routes>
+    <Layout>
+      <LandingPage content={libroContent} />
+    </Layout>
   )
 }

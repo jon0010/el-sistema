@@ -1,5 +1,4 @@
 import { ArrowUpRight, Check, ChevronRight, Menu, Play, Quote, X } from 'lucide-react'
-import { Link } from 'react-router-dom'
 import type { ReactNode } from 'react'
 
 type TfBtnVariant = 'lime' | 'blue' | 'border' | 'white'
@@ -39,14 +38,6 @@ export function TfButton({
       </span>
     </>
   )
-
-  if (href?.startsWith('/')) {
-    return (
-      <Link to={href} className={classes}>
-        {content}
-      </Link>
-    )
-  }
 
   if (href) {
     return (
