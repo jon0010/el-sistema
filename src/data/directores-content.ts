@@ -13,16 +13,16 @@ export const directoresContent: LandingContent = {
   hero: {
     eyebrow: '20 afirmaciones honestas.',
     eyebrowAccent: '5 dimensiones de la dependencia.',
-    title: '¿Tu sistema\ndepende de ti\no funciona sin ti?',
+    title: '¿Tu sistema depende de ti o funciona sin ti?',
     description:
       'Descubre en menos de 5 minutos si tu equipo depende de tu presencia. Gratis, sin registro y con resultado inmediato.',
     cta: { label: 'Hacer el test ahora', href: '#test' },
     stats: [
-      { value: '5', suffix: ' min', label: 'Para completarlo,\nsin registro' },
-      { value: '100', suffix: '%', label: 'Gratis con\nresultado inmediato' },
+      { value: '5', suffix: ' min', label: 'Para completarlo, sin registro' },
+      { value: '100', suffix: '%', label: 'Gratis con resultado inmediato' },
     ],
     cardQuote: {
-      title: 'Diagnóstico\níndice de\ndependencia',
+      title: 'Diagnófico índice de dependencia',
       name: 'Resultado',
       role: 'Inmediato y gratuito',
     },
@@ -31,7 +31,7 @@ export const directoresContent: LandingContent = {
   strategy: {
     eyebrow: 'El síntoma.',
     eyebrowAccent: '¿Te reconoces?',
-    title: 'Líder apagafuegos.\nEquipo dependiente.\nSin tiempo para lo importante.',
+    title: 'Líder apagafuegos. Equipo dependiente. Sin tiempo para lo importante.',
     description:
       'No es un problema de personas ni de actitud. Es cómo está diseñado el trabajo. Las urgencias llenan tu agenda y el trabajo estratégico siempre queda para después.',
     cta: { label: 'Ver las dimensiones', href: '#dimensiones' },
@@ -53,7 +53,7 @@ export const directoresContent: LandingContent = {
   about: {
     eyebrow: 'El cambio.',
     eyebrowAccent: 'Líder arquitecto.',
-    title: 'De líder bombero\na diseñador\ndel sistema',
+    title: 'De líder bombero a diseñador del sistema',
     description:
       'El Sistema Ganador ayuda a directores y mandos intermedios a construir equipos que funcionan sin depender de su presencia constante.',
     testimonial: {
@@ -116,7 +116,7 @@ export const directoresContent: LandingContent = {
   process: {
     eyebrow: 'Cómo funciona.',
     eyebrowAccent: 'Paso a paso.',
-    title: 'El cuestionario en\nmenos de 5 minutos',
+    title: 'El cuestionario en menos de 5 minutos',
     description:
       'Una pregunta por pantalla, sin prisa. Resultado completo al instante.',
     years: '3',
@@ -144,7 +144,7 @@ export const directoresContent: LandingContent = {
   features: {
     eyebrow: 'Tres niveles.',
     eyebrowAccent: '¿En cuál estás?',
-    title: 'Tu puntuación te sitúa\nen uno de estos niveles',
+    title: 'Tu puntuación te sitúa en uno de estos niveles',
     items: [
       {
         title: '20–39: El Sistema depende de ti',
@@ -171,7 +171,7 @@ export const directoresContent: LandingContent = {
   testimonials: {
     eyebrow: 'Directores que ya lo hicieron.',
     eyebrowAccent: 'Resultados reales.',
-    title: 'El test revela lo que\nlas reuniones no dicen',
+    title: 'El test revela lo que las reuniones no dicen',
     items: [
       {
         quote:
@@ -209,7 +209,7 @@ export const directoresContent: LandingContent = {
   blog: {
     eyebrow: 'Lee sobre —',
     eyebrowAccent: 'Dependencia organizacional.',
-    title: 'Insights para directores\nque quieren medir antes de actuar.',
+    title: 'Insights para directores que quieren medir antes de actuar.',
     description:
       'Artículos sobre el índice de dependencia, las 5 dimensiones y cómo convencer a tu organización con datos.',
     cta: { label: 'Ver más recursos', href: '#test' },

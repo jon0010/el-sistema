@@ -18,11 +18,11 @@ export const libroContent: LandingContent = {
       "El Sistema Ganador es el manual práctico con acuerdos, rutinas y herramientas listas para redistribuir criterio y recuperar tu tiempo estratégico.",
     cta: { label: "Conseguir el libro", href: "#cta" },
     stats: [
-      { value: "98", suffix: "%", label: "Líderes que recomiendan\nel método" },
-      { value: "4.9", suffix: "", label: "Valoración media\n(300+ reseñas)" },
+      { value: "98", suffix: "%", label: "Líderes que recomiendan el método" },
+      { value: "4.9", suffix: "", label: "Valoración media (300+ reseñas)" },
     ],
     cardQuote: {
-      title: "Arquitectura\norganizativa\npráctica",
+      title: "Arquitectura organizativa práctica",
       name: "Premio Excelencia",
       role: "RRHH Canarias 2025",
     },
@@ -49,7 +49,7 @@ export const libroContent: LandingContent = {
     title:
       "Tu empresa no tiene un problema de personas. Tiene un problema de diseño.",
     description:
-      "Las decisiones suben a ti, el equipo espera validación, las reuniones no cierran y tu agenda la mandan las urgencias ajenas. No es falta de talento ni de actitud: es el diseño del trabajo.\nEl libro El Sistema Ganador — premiado en RRHH — te da el marco para redistribuir criterio, acordar reglas claras y medir la autonomía real de tu equipo.",
+      "Las decisiones suben a ti, el equipo espera validación, las reuniones no cierran y tu agenda la mandan las urgencias ajenas. No es falta de talento ni de actitud: es el diseño del trabajo. El libro El Sistema Ganador — premiado en RRHH — te da el marco para redistribuir criterio, acordar reglas claras y medir la autonomía real de tu equipo.",
     cta: { label: "Ver qué incluye el libro", href: "#dimensiones" },
     badge: "Premio Excelencia RRHH Canarias 2025",
     card: {
@@ -215,7 +215,7 @@ export const libroContent: LandingContent = {
   team: {
     eyebrow: "El método en acción —",
     eyebrowAccent: "100+ empresas.",
-    title: "Líderes que dejaron\nde ser el cuello de botella",
+    title: "Líderes que dejaron de ser el cuello de botella",
     description:
       "Mandos intermedios que aplicaron el libro y transformaron cómo decide, se alinea y avanza su equipo — con menos fricción y más autonomía.",
     cta: { label: "Conseguir el libro", href: "#cta" },
@@ -250,11 +250,11 @@ export const libroContent: LandingContent = {
   process: {
     eyebrow: "El método en acción.",
     eyebrowAccent: "Paso a paso.",
-    title: "Cómo transformar tu equipo\ncon el Sistema Ganador",
+    title: "Cómo transformar tu equipo con el Sistema Ganador",
     description:
       "El libro guía un recorrido claro: diagnosticar la dependencia, construir los acuerdos base y escalar la autonomía con métricas que importan.",
     years: "4",
-    counter: { value: "4", suffix: "", label: "Fases del\nmétodo" },
+    counter: { value: "4", suffix: "", label: "Fases del método" },
     steps: [
       {
         number: "01",
@@ -286,7 +286,7 @@ export const libroContent: LandingContent = {
   features: {
     eyebrow: "Por qué el libro.",
     eyebrowAccent: "Lo que obtienes.",
-    title: "Un marco práctico,\nno teoría motivacional.",
+    title: "Un marco práctico, no teoría motivacional.",
     items: [
       {
         title: "Lenguaje claro para un problema invisible",
@@ -322,7 +322,7 @@ export const libroContent: LandingContent = {
     eyebrow: "Lo que dicen los líderes.",
     eyebrowAccent: "4.9/5 (300+ reseñas).",
     title:
-      "El feedback confirma\nque el problema es real\ny el libro funciona.",
+      "El feedback confirma que el problema es real y el libro funciona.",
     items: [
       {
         quote:
@@ -360,7 +360,7 @@ export const libroContent: LandingContent = {
   blog: {
     eyebrow: "Lee sobre —",
     eyebrowAccent: "El método.",
-    title: "Ideas para liderar\nsin ser el cuello de botella.",
+    title: "Ideas para liderar sin ser el cuello de botella.",
     description:
       "Adelantos del método que encontrarás desarrollados en el libro: diagnóstico, cambio de rol y herramientas para equipos que deciden solos.",
     cta: { label: "Conseguir el libro", href: "#cta" },

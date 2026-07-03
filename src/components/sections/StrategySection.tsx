@@ -57,9 +57,9 @@ export function StrategySection({ content }: { content: LandingContent }) {
                 )}
                 <div className="text-body-4 title fw-6 letter-space--3">{strategy.card.title}</div>
                 <p className="desc ff-2 fw-5">{strategy.card.description}</p>
-                <div className="list-benefit strategy-benefit-grid d-flex g-20 rg-15 flex-wrap tw:max-md:!flex-col">
+                <div className="list-benefit strategy-benefit-grid">
                   {strategy.card.benefits.map((benefit) => (
-                    <div key={benefit} className="benefit-item d-flex align-items-center g-10">
+                    <div key={benefit} className="benefit-item">
                       <i className="icon-check fs-24" />
                       <span className="ff-2 fw-5">{benefit}</span>
                     </div>
