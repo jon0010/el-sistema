@@ -38,24 +38,20 @@ export function Footer({ content }: { content: LandingContent }) {
               <img src="/images/logo/logo-sg.svg" alt="El Sistema Ganador" />
             </a>
 
-            <div className="footer-content footer-col-block footer-content-1 tw:max-lg:!w-full tw:max-lg:!self-stretch tw:max-lg:!text-left">
+            <div className="footer-content footer-content-1 tw:max-lg:!w-full tw:max-lg:!self-stretch tw:max-lg:!text-left">
               <div className="title-mobile h5 letter-space--3 fw-5">El método</div>
-              <div className="tf-collapse-content">
-                <ul className="content">
-                  <li className="support-item-footer"><span className="ff-2">Acuerdos de decisión</span></li>
-                  <li className="support-item-footer"><span className="ff-2">Autonomía operativa</span></li>
-                  <li className="support-item-footer"><span className="ff-2">Rutina de sincronización</span></li>
-                </ul>
-              </div>
+              <ul className="content">
+                <li className="support-item-footer"><span className="ff-2">Acuerdos de decisión</span></li>
+                <li className="support-item-footer"><span className="ff-2">Autonomía operativa</span></li>
+                <li className="support-item-footer"><span className="ff-2">Rutina de sincronización</span></li>
+              </ul>
             </div>
 
-            <div className="footer-content footer-col-block footer-content-1 tw:max-lg:!w-full tw:max-lg:!self-stretch tw:max-lg:!text-left">
+            <div className="footer-content footer-content-1 tw:max-lg:!w-full tw:max-lg:!self-stretch tw:max-lg:!text-left">
               <div className="title-mobile h5 letter-space--3 fw-5">Contacto</div>
-              <div className="tf-collapse-content">
-                <ul className="content">
-                  <li className="support-item-footer"><span className="ff-2">info@elsistemaganador.com</span></li>
-                </ul>
-              </div>
+              <ul className="content">
+                <li className="support-item-footer"><span className="ff-2">info@elsistemaganador.com</span></li>
+              </ul>
             </div>
           </div>
         </div>

@@ -437,6 +437,11 @@ body::-webkit-scrollbar-thumb:hover {
   text-decoration-color: var(--digital-marketing-light) !important;
 }
 
+/* Footer — siempre visible en mobile (sin acordeón JS del template) */
+.footer.footer-sg .footer-content .content {
+  display: block;
+}
+
 .footer-title-pill {
   overflow: hidden;
   vertical-align: middle;
