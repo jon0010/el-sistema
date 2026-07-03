@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Overrides mínimos — el layout visual viene de /css/seonex.css */
+#root .wrapper {
+  overflow-x: hidden;
+}
